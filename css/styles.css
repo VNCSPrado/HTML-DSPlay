@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.nav-container{
+    background-color: #38AF90;
+    height: 90px;
+    width: 100%;
+    padding: 10px;
+}
+
+.nav-main{
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}      
+
+.nav-brand{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 25px;    
+}
+.profile-avatar img{
+   margin-right: 10px;
+   margin-top: 7.5px;
+}
+
+.news-container{
+    background-color: #fff;
+}
+
+.news-container h1{
+    color: #797979;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 8px;
+}
+
+.description-container{
+    
+    background-color: #E5E5E5;
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    margin-bottom: 28px;
+}
+
+.description-title{
+    color: #38AF90;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 12px;
+  
+}
+
+.description-title p{
+   margin-bottom: 3px;
+}
+
+
+.description-subtitle{
+    color: #797979;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 700; 
+}
+.description-subtitle p{
+    margin: 0 13px;
+}
+
+.description-date{
+    color:#38AF90;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.description-date p{
+    margin-top: 2px;
+}
+hr{
+    width: 90%;
+    color: #38AF90;
+    border: 1px solid;
+    margin-bottom: 0px;
+}
+
+.description-date p{
+    margin-top: 7;
+    margin-left: 13px;
+}
+
+.description-text{
+    color:#797979;
+    font-size: 10px;
+    font-weight: 400;
+}
+.description-text p{
+    margin: 0 12px 12px 12px;
+}
+
+.description-footer{
+    color:#DD7E92;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.description-footer p{
+    margin: 0;
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+
+.button-container{
+        display: flex;
+        margin: 0 auto;
+        width: 244px;
+        height: 67px;
+        border-radius: 8px;
+        background-color: #DD7E92;
+}
+
+.button-container p{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin:auto;
+}
+
+
